@@ -40,12 +40,11 @@ print(x5)
 
 #(4)
 
-x6 = (-i + cmath.sqrt(i**2 - 4*a*a)) / (2*a)
-x7 = (-i - cmath.sqrt(i**2 - 4*a*a)) / (2*a)
+x6 = (-i + (i**2 - 4*a*a)**1/2) / (2*a)
+x7 = (-i - (i**2 - 4*a*a)**1/2) / (2*a)
 
-# 小数点以下の桁数を指定して結果を表示
-print(f"x6 = ({x6.real:.17f}+{x6.imag:.17f}j)")
-print(f"x7 = ({x7.real:.17f}+{x7.imag:.17f}j)")
+print(x6)
+print(x7)
 
 
 
