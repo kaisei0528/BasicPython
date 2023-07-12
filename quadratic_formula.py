@@ -13,7 +13,7 @@ f = 8
 g = -6
 h = -35
 
-i = 0
+i = 1j
 
 
 
@@ -32,19 +32,20 @@ x5 = (-g - math.sqrt(g**2 - 4*f*h)) / (2*f)
 fraction_x4 = Fraction(x4).limit_denominator()
 fraction_x5 = Fraction(x5).limit_denominator()
 
-#(4)
-x6 = (-i + cmath.sqrt(i**2 - 4*a*a)) / (2*a)
-x7 = (-i - cmath.sqrt(i**2 - 4*a*a)) / (2*a)
-
 print(x1)
 print(x2)
 print(x3)
 print(x4)
 print(x5)
-print(x6)
-print(x7)
 
+#(4)
 
+x6 = (-i + cmath.sqrt(i**2 - 4*a*a)) / (2*a)
+x7 = (-i - cmath.sqrt(i**2 - 4*a*a)) / (2*a)
+
+# 小数点以下の桁数を指定して結果を表示
+print(f"x6 = ({x6.real:.17f}+{x6.imag:.17f}j)")
+print(f"x7 = ({x7.real:.17f}+{x7.imag:.17f}j)")
 
 
 
