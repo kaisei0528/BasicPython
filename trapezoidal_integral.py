@@ -1,11 +1,21 @@
-from math import sin
+import math
+
 # --example--
 # print(sin(0))
 # >>> 0
 # -----------
-h = (pi / 2) / 100
+a = 0
+b = math.pi/2
+n = 100
+
+
+
+
+
+
+h = b / n
 total = 0
 for k in range(1, 101):
-    s = (h / 2)*((sin(k - 1) * h) + (sin(k * h)))
+    s = (h / 2)*((math.sin(k - 1) * h) + (math.sin(k * h)))
     total += s
 print(total)
