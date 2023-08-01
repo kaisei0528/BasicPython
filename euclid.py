@@ -1,4 +1,10 @@
+
+
+
 # TODO
+
+# TODO
+
 
 def gcd(a,b):
     while b != 0:
