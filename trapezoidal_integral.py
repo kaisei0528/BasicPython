@@ -19,3 +19,4 @@ for k in range(1, n + 1):
     s = (h / 2)*((math.sin((k - 1) * h)) + (math.sin(k * h)))
     total += s
 print(total)
+print(type(total))

@@ -25,7 +25,7 @@ if is_prime(number2):
 else:
     print(number2,"は素数ではありません")                 
 
-
-
-
+result = is_prime(5)
+print(type(number1))
+print(type(number2))
     
