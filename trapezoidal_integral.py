@@ -1,4 +1,6 @@
+
 import math
+
 
 
 def trapezoidal_integration(f, a=0,b=1,n=100):
@@ -14,6 +16,16 @@ def trapezoidal_integration(f, a=0,b=1,n=100):
     return integral_value
 
 #(1)
+
+from math import sin
+from math import pi
+
+# --example--
+# print(sin(0))
+
+# -----------
+
+
 a = 0
 b=(math.pi)/2
 n=50
@@ -43,4 +55,7 @@ print(a3)
 
            
            
+
+
+
 
