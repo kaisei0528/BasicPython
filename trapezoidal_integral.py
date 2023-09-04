@@ -15,7 +15,7 @@ def trapezoidal_integration(f, a=0,b=1,n=100):
     integral_value = h * integral_sum
     return integral_value
 
-#(1)
+#(1)の解答
 
 from math import sin
 from math import pi
@@ -34,7 +34,7 @@ a1 = trapezoidal_integration(f1,a,b,n)
 print(a1)
 
 
-#(2)
+#(2)の解答
 a = 0
 b = 1
 n = 100
